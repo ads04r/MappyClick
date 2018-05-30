@@ -1,6 +1,6 @@
 {
 	"form": "<table><tr><td>Description:</td><td><input type=\"text\" id=\"new_item_label\" size=\"10\" /></td></tr><tr><td>Type:</td><td><select size=\"1\" id=\"new_item_type\"> <option value=\"free\" selected>Free-standing</option> <option value=\"fixed\">Fixed</option> <option value=\"unknown\">Unknown / Other</option></select></td></tr><tr><td>Access:</td><td><select size=\"1\" id=\"new_item_access\"> <option value=\"public\" selected>Public</option> <option value=\"semipublic\">Uni property</option> <option value=\"private\">Behind lock</option></select></td></tr><tr><td><img src=\"[ICON]\" width=\"32\" height=\"37\"> <input type=\"hidden\" id=\"new_item_class\" value=\"fountain\"> <input type=\"hidden\" id=\"new_item_lat\" value=\"[LAT]\"> <input type=\"hidden\" id=\"new_item_lon\" value=\"[LON]\"></td><td><input type=\"button\" value=\"Save\" id=\"new_item_submit\"></td></tr></table>",
 	"tiles": "https://tiles.maps.southampton.ac.uk/map/{z}/{x}/{y}.png",
-	"icon-pin": "https://maps.southampton.ac.uk/graphics/map-icons/drinkingfountain.png",
-	"icon-shadow": "https://maps.southampton.ac.uk/graphics/map-icons/shadow.png"
+	"icon-pin": "images/drinkingfountain.png",
+	"icon-shadow": "images/shadow.png"
 }

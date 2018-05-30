@@ -131,7 +131,7 @@ function onMapClick(e)
 			'lon': lon
 		}
 
-		$('#new_item_form').parent().html('<img src="https://maps.southampton.ac.uk/graphics/spinner.gif"> Saving...');
+		$('#new_item_form').parent().html('<img src="images/spinner.gif"> Saving...');
 
 		$.post("./update.php", data, function()
 		{
