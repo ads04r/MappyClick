@@ -1,6 +1,6 @@
 <?php
 
-$schema = json_decode(file_get_contents("/etc/schema.json"), true);
+$schema = json_decode(file_get_contents("etc/schema.json"), true);
 $form_html = $schema['form'];
 $form_columns = $schema['columns'];
 
